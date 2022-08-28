@@ -1,0 +1,44 @@
+#google_translate_element {
+    width: 300px;
+    float: right;
+    text-align: right;
+    display: block;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0px !important;
+}
+
+#goog-gt-tt {
+    display: none !important;
+    top: 0px !important;
+}
+
+.goog-tooltip skiptranslate {
+    display: none !important;
+    top: 0px !important;
+}
+
+.activity-root {
+    display: hide !important;
+}
+
+.status-message {
+    display: hide !important;
+}
+
+.language-change-div {
+    background-color: white;
+    border-radius: 4px;
+    padding: 6.5px;
+    display: block;
+}
+
+#language-change-text {
+    color: #495057;
+    margin-left: 10px;
+}

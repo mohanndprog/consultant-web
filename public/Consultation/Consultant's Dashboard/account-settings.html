@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Consultation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/fontAwesome/css/all.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/dashborad-style.css">
+</head>
+<body>
+<!-- Header -->
+<header class="inner-header"></header>
+<!-- Side Menu -->
+<main class="main-wrapper">
+    <aside class="side-wrapper-s">
+        <div class="side-menu-header-s">
+            <div class="side-menu-logo-s">
+                <img src="assets/images/logo.png" alt="">
+            </div>
+            <button class="side-menu-toggle-s">
+                <img src="assets/images/menu.svg" alt="">
+            </button>
+        </div>
+        <ul class="side-menu-s">
+            <li>
+                <a href="dashboard.html">
+                    <i class="fas fa-fw fa-home-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="total-students.html">
+                    <i class="fas fa-fw fa-book-reader"></i>
+                    <span>Students</span>
+                </a>
+            </li>
+            <li>
+                <a href="orders.html">
+                    <i class="fas fa-fw fa-suitcase"></i>
+                    <span>Orders</span>
+                </a>
+            </li>
+            <li>
+                <a href="order-price.html">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Order Price</span>
+                </a>
+            </li>
+            <li>
+                <a href="availability-calender.html">
+                    <i class="fas fa-calendar"></i>
+                    <span>Availability Calender</span>
+                </a>
+            </li>
+            <li>
+                <a href="group-classes.html">
+                    <i class='fas fa-fw fa-chalkboard-teacher'></i>
+                    <span>Group Classes</span>
+                </a>
+            </li>
+            <li>
+                <a href="wallet.html">
+                    <i class="fas fa-fw fa-wallet"></i>
+                    <span>Wallet</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="account-settings.html">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Account Setting</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <div class="content-wrapper">
+        <div class="custom-container">
+            <div class="header inner-header-menu">
+                <div class="right-content">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/images/Image.png" alt="">
+                            Consultant's Name
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownUser">
+                            <a class="dropdown-item" href="#">Sign Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content -->
+        <div class="tab-content-wrapper inner-content-wraper">
+            <div class="custom-container">
+                <div class="stats-row margin-bottom-6 align-item-stretch">
+                    <div class="page-heading">
+                        <h2>Account Setting</h2>
+                    </div>
+                    <div class="row align-items-center">
+                        <form class="profile-setting-form">
+                            <h4>Personal Information</h4>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label>First Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>Last Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>Phone</label>
+                                    <input type="tel" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>Conform Password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label>Country</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+
+                            <h4>Add Profile Photo, Video and Biography</h4>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <div class="profile-picture"></div>
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <label>Profile Picture</label>
+                                    <input type="file" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label>Introduction Video (Experts use videos to present their skillsets)</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label>Bio</label>
+                                    <textarea rows="4" class="form-control"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <div class="colum-layout">
+                                        <div class="colum-layout__cell">
+                                            <div class="colum-layout__head">
+                                                <span>Subjects of Consultation</span>
+                                            </div>
+                                            <div class="colum-layout__body">
+                                                <div class="selection">
+                                                    <div class="subject-div">
+                                                        <h5>Healty</h5>
+                                                    </div>
+                                                    <input type="checkbox">
+                                                </div>
+                                                <div class="selection">
+                                                    <div class="subject-div">
+                                                        <h5>Medical</h5>
+                                                    </div>
+                                                    <input type="checkbox">
+                                                </div>
+                                                <div class="selection">
+                                                    <div class="subject-div">
+                                                        <h5>Sports</h5>
+                                                    </div>
+                                                    <input type="checkbox">
+                                                </div>
+                                                <div class="selection">
+                                                    <div class="subject-div">
+                                                        <h5>Marriage</h5>
+                                                    </div>
+                                                    <input type="checkbox">
+                                                </div>
+                                                <div class="selection">
+                                                    <div class="subject-div">
+                                                        <h5>Business</h5>
+                                                    </div>
+                                                    <input type="checkbox">
+                                                </div>
+                                                <div class="selection">
+                                                    <div class="subject-div">
+                                                        <h5>Healty</h5>
+                                                    </div>
+                                                    <input type="checkbox">
+                                                </div>
+                                                <div class="selection">
+                                                    <div class="subject-div">
+                                                        <h5>Medical</h5>
+                                                    </div>
+                                                    <input type="checkbox">
+                                                </div>
+                                                <div class="selection">
+                                                    <div class="subject-div">
+                                                        <h5>Sports</h5>
+                                                    </div>
+                                                    <input type="checkbox">
+                                                </div>
+                                                <div class="selection">
+                                                    <div class="subject-div">
+                                                        <h5>Marriage</h5>
+                                                    </div>
+                                                    <input type="checkbox">
+                                                </div>
+                                                <div class="selection">
+                                                    <div class="subject-div">
+                                                        <h5>Business</h5>
+                                                    </div>
+                                                    <input type="checkbox">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary account-setting-btn">Save</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+<script src="assets/js/jquery.min.js" ></script>
+<script src="assets/js/bootstrap.bundle.min.js" ></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

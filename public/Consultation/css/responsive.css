@@ -1,0 +1,26 @@
+/*
+Responsive Style sheet
+Created by: Ayesha Bashir
+*/
+@media (max-width: 1200px) {
+    .form-name.login-page {
+        padding: 3rem 4rem;
+    }
+}
+@media (max-width: 1024px) {
+    .form-name.login-page {
+        padding: 3rem 3.5rem;
+    }
+}
+@media (max-width: 991px) {
+    .form-card {
+        padding: 0 50px;
+    }
+    header {
+        display: block;
+        width: 100%;
+    }
+    .main-nav{
+        width: 100%;
+    }
+}

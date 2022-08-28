@@ -1,0 +1,428 @@
+/*
+Responsive Style sheet
+Created by: Ayesha Bashir
+*/
+@media (max-width: 1200px) {
+    .form-name.login-page {
+        padding: 3rem 4rem;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
+    section.find-consultant-section {
+        height: 65vh;
+    }
+    .find-consultant-section .cta-content {
+        max-width: 400px;
+    }
+    .find-consultant-section .cta-content h2 {
+        margin-bottom: 2rem;
+    }
+    .blog-card .blog__body .blog__detail .blog__title {
+        margin-bottom: 1rem;
+    }
+    .form-group.filter-colum.filter-colum--large button {
+        right: 20px;
+    }
+}
+@media (max-width: 1024px) {
+    .form-name.login-page {
+        padding: 3rem 3.5rem;
+    }
+    section.find-consultant-section {
+        height: 30vh;
+        padding: calc(4rem + 20px) 0;
+    }
+    .footer .footer--row .email-field .icon {
+        right: 0;
+    }
+    i.fa.fa-envelope.icon.icon--envelope {
+        margin-right: 0;
+    }
+}
+@media (max-width: 991px) {
+    .form-card {
+        padding: 0 50px;
+    }
+    header {
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        position: absolute;
+        z-index: 9999;
+    }
+    .main-nav{
+        width: 100%;
+    }
+    li.nav-item {
+        padding: 0;
+        text-align: left;
+        border: 1px solid rgb(0 0 0 / 10%);
+        margin-bottom: 17px;
+    }
+    a.nav-link {
+        padding: 0 20px !important;
+    }
+    .navbar-collapse {
+        margin: 20px 0;
+    }
+    a.login-btn {
+        margin-right: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .Signup-btn {
+        float: left;
+        width: 100%;
+        text-align: left;
+    }
+    .dropdown {
+        margin-top: 20px;
+    }
+    .find-consultant-section .cta-content h2 {
+        font-size: calc(.95rem + .95vw);
+        line-height: calc(1.75rem + 10px);
+        margin-bottom: 1.5rem;
+    }
+    .btn.btn--large {
+        padding: 0 3rem;
+        font-size: 1rem;
+    }
+    .form-name.student-from {
+        padding: 3rem 5.5rem;
+    }
+}
+@media (max-width: 920px) {
+    .modal-body.bookingModel-body {
+        padding: 1rem 1rem 2rem;
+    }
+}
+@media (max-width: 900px) {
+    .box__primary {
+        width: 100%;
+    }
+    .box__secondary {
+        width: 100%;
+    }
+    .order-summery-div {
+        padding: 1.25rem 1.5rem;
+    }
+}
+@media (max-width: 820px) {
+    .blog-card .blog__body .blog__detail .tags-inline__item {
+        margin-bottom: 0.75rem;
+    }
+    .blog-card .blog__body .blog__detail .blog__title h3 {
+        font-size: calc(14px + 0.15vw);
+        line-height: 24px;
+    }
+    .blog-card .blog__body .blog__detail .btn {
+        padding: 0 1rem;
+        font-size: 0.75rem;
+    }
+    .blog-card .blog__body .blog__detail .blog__date {
+        margin-bottom: 1rem;
+    }
+    .blog-card:hover .blog__detail {
+        bottom: -20px !important;
+    }
+    .order-summery-div {
+        padding: 1.25rem 1.25rem;
+    }
+    .profile-cover {
+        display: block;
+    }
+    .calendar-view .calendar-view__head .cal-status {
+        margin-right: 1.5rem;
+    }
+    .profile-cover .profile-secondary {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .service {
+        display: block;
+    }
+    .service__media.feature-section {
+        margin-bottom: 30px;
+    }
+    .service .service__content {
+        margin-left: 0;
+    }
+    section.blog-section .col-md-6 {
+        margin-bottom: 30px;
+    }
+    i.fa.fa-envelope.icon.icon--envelope {
+        margin-right: 20px;
+    }
+    .booking-content-form-div.order-summery-section {
+        padding: 1.5rem;
+        width: 100%;
+    }
+    .modal-footer.bookingModel-footer {
+        position: absolute;
+        bottom: -430px;
+        border-top: none;
+    }
+    .block-content .block-content__head {
+        padding: 0 35px;
+    }
+    .block-content .block-content__body {
+        padding: 0 35px;
+    }
+}
+@media (max-width: 700px) {
+    header {
+        padding: 20px 30px;
+    }
+    .banner-caption {
+        min-width: 90%;
+        max-width: 90%;
+    }
+    .banner-caption h1 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 575px) {
+    .modal-dialog.bookingModel-dialog {
+        max-width: 100%;
+    }
+}
+@media (max-width: 540px) {
+    section.find-consultant-section {
+        height: 45vh;
+    }
+    .blog-card .blog__body .blog__detail {
+        padding: 3rem 1em;
+    }
+    .footer .section-copyright .copyright {
+        display: block;
+        text-align: center;
+    }
+    .footer__logo {
+        margin: 0px auto 10px;
+    }
+    .main__head form {
+        display: block;
+    }
+    .form-group.filter-colum.filter-colum--large button {
+        top: 240px;
+    }
+    .sorting__head {
+        display: block;
+    }
+    .sorting__title {
+        margin-bottom: 15px;
+    }
+    .profile-cover .profile-head {
+        width: 100%;
+    }
+    .detail-wrapper .profile__media {
+        float: none;
+        margin-right: 0;
+        width: 100%;
+    }
+    section.profile-section .avtar.avtar--xlarge {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section.profile-section .panel-cover {
+        padding: 1rem 0 3rem;
+    }
+    .panel-head__right {
+        left: 0;
+    }
+    .calendar-view .calendar-view__head h4 {
+        margin-bottom: 20px;
+    }
+    .lesson-card-wrapper {
+        width: 100%;
+    }
+    .lessons-cards-section .lesson-card {
+        width: 100%;
+    }
+    .form-card {
+        padding: 0;
+    }
+}
+
+@media (max-width: 470px) {
+    .banner-caption h1 {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        margin-bottom: 0.25rem;
+    }
+    .banner-caption p {
+        margin-bottom: 0.5rem;
+        font-size: 14px;
+    }
+    .banner-caption {
+        padding: 1.75rem 2rem;
+    }
+    .carousel-item img {
+        height: 470px;
+    }
+    section.find-consultant-section {
+        height: 50vh;
+        padding: calc(2rem + 20px) 0;
+    }
+    .custom-calendar tbody td {
+        padding: 0.125rem;
+    }
+    .form-name.login-page {
+        padding: 3rem 2.5rem;
+    }
+    .form-name.student-from {
+        padding: 3rem 2.5rem;
+    }
+    .form-card.row.justify-content-center.no-gutters.student-from {
+        padding: 0;
+    }
+    .form-name.student-from h2 {
+        font-size: 1rem;
+    }
+    .info__content h3 {
+        font-size: 1rem;
+    }
+    .block-content .block-content__head {
+        margin-bottom: 1.5rem;
+    }
+    .block-content {
+        padding: 3rem 0 0 0;
+    }
+    .row.registerd-btns button {
+        font-size: .75rem;
+    }
+    .row.registerd-btns a {
+        font-size: .75rem;
+    }
+}
+@media (max-width: 412px) {
+    section.find-consultant-section {
+        height: 28vh;
+    }
+    .panel-box .panel-box__body {
+        padding: 2.5rem 1rem;
+    }
+    .list__head {
+        text-align: left;
+        float: none;
+        max-width: 100%;
+    }
+    .list__head .list__media .avtar {
+        width: 100%;
+    }
+    .list__body {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .tutor-info {
+        display: flex;
+        justify-content: space-between;
+    }
+    .box__primary {
+        padding: 2.5rem 1rem;
+    }
+    .calendar-view .calendar-view__head .cal-status p {
+        font-size: .6rem;
+    }
+}
+@media (max-width: 411px) {
+    .banner-caption h1 {
+        font-size: 1.25rem;
+        line-height: 2rem;
+        margin-bottom: 0rem;
+    }
+    section.find-consultant-section {
+        height: 45vh;
+        padding: calc(2rem + 20px) 0;
+    }
+    .find-consultant-section .cta-content h2 {
+        font-size: calc(.75rem + .75vw);
+        line-height: calc(1rem + 10px);
+        margin-bottom: 1.25rem;
+    }
+    .btn.btn--large {
+        padding: 0 1.5rem;
+        font-size: .75rem;
+    }
+}
+@media (max-width: 414px) {
+    section.find-consultant-section {
+        height: 28vh;
+    }
+}
+@media (max-width: 375px) {
+    section.find-consultant-section {
+        height: 35vh;
+    }
+    .btn.btn--large {
+        height: 40px;
+    }
+    .custom-calendar tbody td {
+        padding: 0.1rem;
+    }
+}
+@media (max-width: 360px) {
+    section.find-consultant-section {
+        height: 30vh;
+    }
+    .custom-calendar tbody td {
+        padding: 0;
+    }
+    .custom-calendar tbody td:first-child .cal-cell {
+        width: 32px;
+        font-size: 10px;
+    }
+    .custom-calendar tbody td .cal-cell {
+        width: 30px;
+    }
+    .custom-calendar thead th {
+        font-size: 10px;
+        padding-bottom: 0;
+    }
+    .form-name.student-from {
+        padding: 2rem 2.5rem;
+    }
+}
+@media (max-width: 320px) {
+    .banner-caption h1 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .banner-caption p {
+        font-size: 11px;
+    }
+    .banner-caption {
+        padding: 1.75rem 1.25rem;
+    }
+    .tags-inline li a {
+        font-size: 0.75rem;
+    }
+    .logo {
+        width: 120px;
+        margin-top: 5px;
+    }
+    section.find-consultant-section {
+        height: 41vh;
+    }
+    .blog-card .blog__body .blog__detail {
+        padding: 1rem;
+        bottom: -65px;
+    }
+    .blog-card .blog__body .blog__detail .btn {
+        height: 2rem;
+    }
+    .blog-card:hover .blog__detail {
+        bottom: 0 !important;
+    }
+    .blog-card .blog__body .blog__detail {
+        bottom: -55px;
+    }
+}
+@media (max-width: 280px) {
+
+}
